@@ -52,6 +52,25 @@
   font-size: 100px;
 }
 
+#homeIntro {
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+  align-self: flex-end;
+  justify-content: center;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 4px;
+  font-family: 'Rubik', sans-serif;
+}
+
+#homeTrevorPhoto {
+  border-radius: 58%;
+  max-width: 600px;
+  max-height: 600px;
+  justify-content: center;
+}
+
 #homeSubhead {
   font-size: 32px;
   display: flex;
