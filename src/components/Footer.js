@@ -6,11 +6,14 @@ const Footer = () => {
         <>
         <footer>
             <div id="footContainter">
+                <p id="footContact">Contact/Find Me Online</p>
+                <div id="footIconContainer">
                 <SocialIcon url="mailto:tbrown034@gmail.com" />
                 <SocialIcon url="https://github.com/tbrown034" />
                 <SocialIcon url="https://www.linkedin.com/in/trevorabrown/" />
                 <SocialIcon url="https://twitter.com/tbrownOKC" />
                 <SocialIcon url="https://www.facebook.com/profile.php?id=6814723" />
+                </div>
             </div>
         </footer>
     </>

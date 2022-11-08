@@ -16,7 +16,7 @@
 }
 
 
-#footContainter {
+#footIconContainer {
   display: flex;
   justify-content: space-around;
 
@@ -31,6 +31,31 @@
   text-align: center;
   margin-top: 4px;
   margin-bottom: 1px;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #a8abb4;
+  font-size: 18px;
+  font-family: 'Press Start 2P', 'Rubik', sans-serif;
+  text-align: center;
+
+}
+
+.bodyContainer #homeMyJ {
+  display: flex;
+  flex-direction: column;
+  border-right: 4px dotted black;
+  padding-right: 50px;
+  margin-right: 50px;
+}
+
+.webDev {
+  display: flex;
+  flex-direction: column;
+  border-right-style :none; 
 }
 
 #homeContainer {
@@ -86,4 +111,11 @@
   text-decoration: none;
   color: rgb(4, 4, 57);
   font-family: 'Press Start 2P', 'Rubik', sans-serif;
+}
+
+#footContact {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    align-self: center;
+    border-bottom: 4px solid black;
 }
