@@ -1,19 +1,46 @@
 * {
-  background-color: lightsteelblue;
-  font-family: 'Press Start 2P', cursive;
+  background-color: rgb(29, 66, 115);
+}
+
+#navBrand {
+  color: white;
+  font-family: 'Monoton', cursive;
+  font-size: 70px;
+  padding-left: 40px;
+}
+
+#navLinks {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#navContact {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 
-#headNavContainer {
+#contact, #resume {
+  border: whitesmoke 5px solid;
+  margin-right: 10px;
+  background-color:rgb(29, 66, 115);
+  color: white(29, 66, 115);
+}
+
+
+
+ #navbar {
+  color: red;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  font-size: 14px;
-  text-decoration: none;
-  font-weight: bolder;
-  color:rgb(0, 0, 11);
-  font-family: 'Press Start 2P', 'Rubik', sans-serif;
+  justify-content: space-between;
+  margin-right: 40px;
+
 }
+
+
+
+
+
 
 
 #footIconContainer {
@@ -107,11 +134,7 @@
   
 }
 
-#headNavContainer a {
-  text-decoration: none;
-  color: rgb(4, 4, 57);
-  font-family: 'Press Start 2P', 'Rubik', sans-serif;
-}
+
 
 #footContact {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
