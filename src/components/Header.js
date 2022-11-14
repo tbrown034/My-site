@@ -19,7 +19,7 @@ function Header() {
             Skills and proficiencies
           </NavDropdown.Item>
         </NavDropdown>
-        <NavDropdown title="Coding" id="collasible-nav-dropdown">
+        <NavDropdown title="Web Development" id="collasible-nav-dropdown">
           <NavDropdown.Item href="#action/3.1">Projects</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.2">Goals</NavDropdown.Item>
           <NavDropdown.Item href="#action/3.3">Top Clips</NavDropdown.Item>

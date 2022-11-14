@@ -1,39 +1,36 @@
-import trevPhoto from './Photos/trevorPhoto2.jpeg'
-import journalism from './Photos/KeyBoard4.png'
-import datavizs from './Photos/DataViz.png'
-import webDev from './Photos/coding.jpg'
-
+import trevPhoto from "./Photos/trevorPhoto2.jpeg";
+import cutOut from "./Photos/crop4.png";
 
 const Home = () => {
   return (
     <>
       <div id="homeContainer">
-        <h1 id="homeName">Hello, my name is Trevor</h1>
-        
-        <p id="homesubhead">
-          From Investigative Journalism to FullStack Development
-        </p>
-        <div id="homePhotoContainer">
-          <img src={trevPhoto} id="homeTrevorPhoto" alt="Trevor">
-          </img>
+        <h1 id="homeName">Hello, I'm Trevor.</h1>
+        <div id="homeBody">
+          <div id="homeJournalist">
+            <h2>Journalist</h2>
+            <span class="material-symbols-outlined material-icons md-48"> 
+                edit
+                </span>
+            <p>Award-winning journalist with more than 15 years of professional experience. </p>
+          </div>
+          <div id="homePhotoContainer">
+            <img src={cutOut} id="homeTrevorPhoto" alt="Trevor"></img>
+          </div>
+          <div id="homeJournalist">
+            <h2>Coder</h2>
+            <span class="material-symbols-outlined material-icons md-48">
+                code
+                </span>
+            <p>Full-stack programmer interested in the intersection of journalism and technology.</p>
+          </div>
         </div>
-        <p id="homeIntro"> For the past 14 years, I have been a reporter, most recently as an investigative reporter with Oklahoma Watch. But now I'm trying something new. I have enrolled in OU Outreach's Coding Bootcamp, powered by FullStack Academy. Follow along with me as I embark on the next stage of my career and check out my journalism, data visualizations and web development work below!
-        </p>
+        <button id="button1">Download My Resume</button>
+        <button id="button1">Let's Talk</button>
+
       </div>
     </>
   );
 };
 
 export default Home;
-
-{/* <div id="homeIcons">
-          <span class="material-symbols-outlined material-icons md-48">
-            edit
-          </span>
-          <span class="material-symbols-outlined material-icons md-48">
-            arrow_forward
-          </span>
-          <span class="material-symbols-outlined material-icons md-48">
-            code
-          </span>
-        </div> */}

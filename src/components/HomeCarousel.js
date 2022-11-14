@@ -5,10 +5,10 @@ import coding from "./Photos/codingbox.jpg";
 
 const HomeCarousel = () => {
   return (
-    <div style={{ display: 'block', width: 700, padding: 30 }}>
+    <div style={{  padding: 200 }}>
       <h4>Multi-tool Journalism/Developer</h4>
     <Carousel>
-      <Carousel.Item>
+      <Carousel.Item interval={41500}>
         <img className="d-block w-100" src={journalism} alt="Image One" />
         <Carousel.Caption>
           <h3>Journalism</h3>
