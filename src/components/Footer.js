@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { SocialIcon } from 'react-social-icons';
 const Footer = () => {
     return (
@@ -7,11 +6,10 @@ const Footer = () => {
         <footer>
             <div id="footContainter">
                 <div id="footIconContainer">
-                <SocialIcon url="mailto:tbrown034@gmail.com" />
-                <SocialIcon url="https://github.com/tbrown034" />
-                <SocialIcon url="https://www.linkedin.com/in/trevorabrown/" />
-                <SocialIcon url="https://twitter.com/tbrownOKC" />
-                <SocialIcon url="https://www.facebook.com/profile.php?id=6814723" />
+                <SocialIcon id="socialIcons" url="mailto:tbrown034@gmail.com" />
+                <SocialIcon id="socialIcons" url="https://www.linkedin.com/in/trevorabrown/" />
+                <SocialIcon id="socialIcons" url="https://twitter.com/tbrownOKC" />
+                <SocialIcon id="socialIcons" url="https://github.com/tbrown034" />
                 </div>
             </div>
         </footer>
