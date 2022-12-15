@@ -47,14 +47,14 @@ const Home = () => {
         </h3>
         <div id="homeButtons">
         <DropdownButton id="dropdown-basic-button" title="View My Work">
-      <Dropdown.Item href="#/action-1">Journalism</Dropdown.Item>
-      <Dropdown.Item href="#/action-2">Coding</Dropdown.Item>
-      <Dropdown.Item href="#/action-3">Data Vizsualizations</Dropdown.Item>
+      <Dropdown.Item href="/journalism">Journalism</Dropdown.Item>
+      <Dropdown.Item href="webdevelopment">Coding</Dropdown.Item>
+      <Dropdown.Item href="dataviz">Data Vizsualizations</Dropdown.Item>
     </DropdownButton>
     <DropdownButton id="dropdown-basic-button" title="Let's Talk">
-      <Dropdown.Item href="#/action-1">About Me</Dropdown.Item>
-      <Dropdown.Item href="#/action-2">Resume</Dropdown.Item>
-      <Dropdown.Item href="#/action-3"> Contact</Dropdown.Item>
+      <Dropdown.Item href="/about">About Me</Dropdown.Item>
+      <Dropdown.Item href="/resume">Resume</Dropdown.Item>
+      <Dropdown.Item href="/contact"> Contact</Dropdown.Item>
     </DropdownButton>
    
         
