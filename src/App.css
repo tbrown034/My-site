@@ -223,8 +223,10 @@ h2 {
   flex-direction: row;
 }
 
-#aboutPic {
-  display: flex;
-  flex-grow: 120;
-
+h4 {
+  font-size: 130%;
+  color: rgb(194, 199, 216);
+  margin-right: 2%;
+  margin-left: 2%;
 }
+
