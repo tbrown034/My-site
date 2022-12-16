@@ -12,6 +12,8 @@ import EmojiPeopleOutlinedIcon from '@mui/icons-material/EmojiPeopleOutlined';
 import Typography from "@mui/material/Typography";
 import SchoolIcon from "@mui/icons-material/School";
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
+import Clips from './Clips'
+
 
 const Journalism = () => {
   return (
@@ -200,6 +202,7 @@ const Journalism = () => {
       </div>
       <div id="journalismClips">
         <h2>Clips</h2>
+        <Clips />
       </div>
       <div id="journalismClips">
         <h2>Awards</h2>

@@ -1,4 +1,4 @@
-* {
+body {
   background-color: rgb(58, 88, 133);
 }
 
@@ -245,4 +245,13 @@ h4 {
   color:rgb(167, 178, 186) 
 
 
+}
+
+#clipHeadline {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+#clipByline {
+  font-size: smaller;
 }
