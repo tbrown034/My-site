@@ -230,3 +230,19 @@ h4 {
   margin-left: 2%;
 }
 
+#timelineDate {
+  color: whitesmoke;
+
+}
+
+#timelineHeader {
+  color:  #519A8C;
+  font-size: larger; 
+
+}
+
+#timelineSubhead {
+  color:rgb(167, 178, 186) 
+
+
+}
