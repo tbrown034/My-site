@@ -18,7 +18,7 @@ import Clips from './Clips'
 const Journalism = () => {
   return (
     <>
-      <h1>Award-winning journalist</h1>
+      <h1>Award-Winning Journalist</h1>
       <h4>
         Before the summer of 2022, I was an investigatve journalist with
         Oklahoma Watch, a non-profit investigatve journalism group based in
