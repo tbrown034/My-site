@@ -8,6 +8,11 @@ export {default as About} from './About'
 export {default as Contact} from './Contact'
 export {default as Resume} from './Resume'
 export {default as Clips} from './Clips'
+export {default as Experience} from './Timeline'
+export {default as Awards} from './Awards'
+
+
+
 
 
 

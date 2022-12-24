@@ -255,3 +255,27 @@ h4 {
 #clipByline {
   font-size: smaller;
 }
+
+#clipContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#card {
+  margin-right: 2%;
+  margin-bottom: 2%;
+}
+
+
+
+th {
+  font-size: larger;
+  color: #519A8C;
+}
+
+td {
+  color:#83BDB2;
+}
