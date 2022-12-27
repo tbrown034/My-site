@@ -53,11 +53,7 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
+          
           title="Oklahoma Watch"
           subheader="June 6, 2022"
         />
@@ -145,11 +141,7 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
+         
           title="Oklahoma Watch"
           subheader="Jan. 13, 2022"
         />
@@ -235,11 +227,7 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
+         
           title="Oklahoma Watch"
           subheader="Dec. 20, 2021"
         />
@@ -416,11 +404,7 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={docPhoto} />}
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
+          
           title="Oklahoma Watch"
           subheader="July 30, 2021"
         />
@@ -499,11 +483,7 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
+          
           title="Oklahoma Watch"
           subheader="July 2, 2021"
         />
@@ -571,11 +551,7 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
+         
           title="Oklahoma Watch"
           subheader="April 16, 2021"
         />
@@ -647,11 +623,7 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
+          
           title="Oklahoma Watch"
           subheader="March 15, 2021"
         />
@@ -720,11 +692,7 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
+        
           title="Wyoming Tribune Eagle"
           subheader="Dec. 13, 2015"
         />
@@ -794,11 +762,7 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
+          
           title="Wyoming Tribune Eagle"
           subheader="Nov. 23, 2014"
         />
