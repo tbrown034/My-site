@@ -10,6 +10,7 @@ export {default as Resume} from './Resume'
 export {default as Clips} from './Clips'
 export {default as Experience} from './Timeline'
 export {default as Awards} from './Awards'
+export {default as Tech} from './Tech'
 
 
 
