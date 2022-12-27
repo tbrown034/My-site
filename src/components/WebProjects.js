@@ -16,6 +16,7 @@ import strangers from "./Photos/strangers.png"
 
 
 
+
 export default function WebProjects() {
   return (
     <>
@@ -26,15 +27,17 @@ export default function WebProjects() {
         ways to grab, filter and display infomration.{" "}
       </h4>
       <div id="clipContainer">
-      <Card id="card" sx={{ maxWidth: 500 }}>
+      <Card  id="card" sx={{ maxWidth: 500 }}> 
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
            
             title="Personal Project"
             subheader="Winter 2022"
+            className="cardBackground"
+
           />
           <CardMedia component="img" image={personal} alt="personal" />
-          <CardContent>
+          <CardContent className="cardBackground"  >
             <Typography paragraph>
               Created this very website that you are now on using a frontend tech stack that includes React, Bootstrap, Material UI.
             </Typography>
@@ -68,9 +71,10 @@ export default function WebProjects() {
            
             title="FullStack Academy"
             subheader="Fall 2022"
+            className="cardBackground"
           />
           <CardMedia component="img" image={retrograde} alt="retrograde" />
-          <CardContent>
+          <CardContent className="cardBackground">
             <Typography paragraph>
             Worked on a team of four to create an e-commerce site with a tech stack that included React, Express, PostgreSQL and Axios.
             </Typography>
@@ -112,12 +116,12 @@ export default function WebProjects() {
         <Card id="card" sx={{ maxWidth: 500 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-           
+            className="cardBackground"
             title="FullStack Academy"
             subheader="Fall 2022"
           />
           <CardMedia component="img" image={fitness} alt="fitness" />
-          <CardContent>
+          <CardContent className="cardBackground">
             <Typography paragraph>
               Worked on a team of two to create a full-stack application that allows users to sign in, register, create excersies and share routines with others. Web stack included React, Node.JS, Express and REST API. 
             </Typography>
@@ -149,12 +153,13 @@ export default function WebProjects() {
         <Card id="card" sx={{ maxWidth: 500 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+            className="cardBackground"
            
             title="FullStack Academy"
             subheader="Summer 2022"
           />
           <CardMedia component="img" image={ticTac} alt="TicTac" />
-          <CardContent>
+          <CardContent className="cardBackground">
             <Typography paragraph>
               Created a simple tic-tac-toe game only vanilla JavaScript
             </Typography>
@@ -185,12 +190,13 @@ export default function WebProjects() {
         <Card id="card" sx={{ maxWidth: 500 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+            className="cardBackground"
            
             title="FullStack Academy"
             subheader="Summer 2022"
           />
           <CardMedia component="img" image={strangers} alt="stranger's things" />
-          <CardContent>
+          <CardContent className="cardBackground">
             <Typography paragraph>
               Created a light Craigslist-typle clone that allows users to register, sign in, post items for sale and view items from others using React. 
             </Typography>
