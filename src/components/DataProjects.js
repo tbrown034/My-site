@@ -8,12 +8,8 @@ import Avatar from "@mui/material/Avatar";
 import Typography from "@mui/material/Typography";
 import trevPhoto from "./Photos/trevorPhoto2.jpeg";
 import Button from "@mui/material/Button";
-import chart2 from "./Photos/chart2.webp"
 
 
-{
-
-}
 
 export default function DataProjects() {
   return (
@@ -25,7 +21,7 @@ export default function DataProjects() {
         ways to grab, filter and display infomration.{" "}
       </h4>
       <div id="clipContainer">
-        <Card id="card" sx={{ maxWidth: 500 }}>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
             title="Oklahoma Watch"
@@ -36,7 +32,6 @@ export default function DataProjects() {
           component="iframe"
           src="https://datawrapper.dwcdn.net/fMDc4/6/" 
           scrolling="yes" frameborder="1"
-          max-height="194"
  
         />
           <CardContent className="cardBackground">
@@ -65,7 +60,7 @@ export default function DataProjects() {
             </CardActions>
           </CardContent>
         </Card>
-        <Card id="card" sx={{ maxWidth: 500 }}>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
             title="Oklahoma Watch"
@@ -75,7 +70,6 @@ export default function DataProjects() {
           <CardMedia className="dataEmbed"
           component="iframe"
           src="https://datawrapper.dwcdn.net/L0qvZ/4/" scrolling="yes" 
-          height="194"
 
         />
           <CardContent className="cardBackground">
@@ -104,7 +98,7 @@ export default function DataProjects() {
             </CardActions>
           </CardContent>
         </Card>
-        <Card id="card" sx={{ maxWidth: 500 }}>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
             title="Oklahoma Watch"
@@ -114,7 +108,6 @@ export default function DataProjects() {
           <CardMedia className="dataEmbed"
           component="iframe"
           src="https://datawrapper.dwcdn.net/NDN7G/9/" scrolling="yes" 
-          height="194"
 
         />
           <CardContent className="cardBackground">
@@ -143,7 +136,7 @@ export default function DataProjects() {
             </CardActions>
           </CardContent>
         </Card>
-        <Card id="card" sx={{ maxWidth: 500 }}>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
             title="Oklahoma Watch"
@@ -154,7 +147,6 @@ export default function DataProjects() {
           component="iframe"
           src="https://datawrapper.dwcdn.net/m9I4h/2/"
           scrolling="yes" 
-          height="194"
 
         />
           <CardContent className="cardBackground">
@@ -183,7 +175,7 @@ export default function DataProjects() {
             </CardActions>
           </CardContent>
         </Card>
-        <Card id="card" sx={{ maxWidth: 500 }}>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
             title="Oklahoma Watch"
@@ -194,7 +186,6 @@ export default function DataProjects() {
           component="iframe"
           src="https://datawrapper.dwcdn.net/9FU1F/1/" 
           scrolling="yes" 
-          height="194"
 
         />
           <CardContent className="cardBackground">
@@ -223,7 +214,7 @@ export default function DataProjects() {
             </CardActions>
           </CardContent>
         </Card>
-        <Card id="card" sx={{ maxWidth: 500 }}>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
             title="Oklahoma Watch"
@@ -232,9 +223,8 @@ export default function DataProjects() {
           />
           <CardMedia className="dataEmbed"
           component="iframe"
-          src="https://datawrapper.dwcdn.net/eTHLz/1/"
+          src="https://datawrapper.dwcdn.net/eTHLz/1/" 
           scrolling="yes" 
-          height="194"
 
         />
           <CardContent className="cardBackground">
@@ -263,7 +253,7 @@ export default function DataProjects() {
             </CardActions>
           </CardContent>
         </Card>
-        <Card id="card" sx={{ maxWidth: 500 }}>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
             title="Oklahoma Watch"
@@ -274,7 +264,6 @@ export default function DataProjects() {
           component="iframe"
           src="https://datawrapper.dwcdn.net/5Pout/1/"
                     scrolling="yes" 
-          height="194"
 
         />
           <CardContent className="cardBackground">
@@ -303,7 +292,7 @@ export default function DataProjects() {
             </CardActions>
           </CardContent>
         </Card>
-        <Card id="card" sx={{ maxWidth: 500 }}>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
             title="Oklahoma Watch"
@@ -313,7 +302,6 @@ export default function DataProjects() {
           <CardMedia className="dataEmbed"
           component="iframe"
           src="https://datawrapper.dwcdn.net/EncDs/4/"                    scrolling="yes" 
-          height="194"
 
         />
           <CardContent className="cardBackground">
@@ -343,17 +331,18 @@ export default function DataProjects() {
           </CardContent>
         </Card>
 
-        <Card id="card" sx={{ maxWidth: 500 }}>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
             title="Oklahoma Watch"
-            subheader="Dec. 20, 2021"
+            subheader="Nov. 19, 2021"
             className="cardBackground"
           />
           <CardMedia className="dataEmbed"
-          component="iframe"
-          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;BothMapsRedistricting&#47;Dashboard1&#47;1_rss.png'                    scrolling="yes" 
-          height="294"
+          component="img"
+          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Du&#47;DualMaps_16366620253140&#47;Dashboard1&#47;1_rss.png'                scrolling="yes" 
+       
+
 
         />
           <CardContent className="cardBackground">
@@ -362,7 +351,7 @@ export default function DataProjects() {
               <Button size="small">
                 {" "}
                 <a
-                  href="https://www.datawrapper.de/_/EncDs/"
+                  href="https://public.tableau.com/views/DualMaps_16366620253140/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -372,7 +361,7 @@ export default function DataProjects() {
               <Button size="small">
                 {" "}
                 <a
-                  href="https://oklahomawatch.org/2022/06/02/hundreds-of-bills-passed-the-legislature-just-a-dozen-were-authored-by-democrats/"
+                  href="https://oklahomawatch.org/2021/11/19/redistricting-weighing-the-impact-of-splitting-oklahomas-largest-hispanic-community/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -382,6 +371,87 @@ export default function DataProjects() {
             </CardActions>
           </CardContent>
         </Card>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
+          <CardHeader
+            avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+            title="Oklahoma Watch"s
+            subheader="Oct. 4, 2021"
+            className="cardBackground"
+          />
+          <CardMedia className="dataEmbed"
+          component="img"
+          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TestScores2021v_2019&#47;Dashboard1&#47;1_rss.png'       scrolling="yes" 
+
+
+
+        />
+          <CardContent className="cardBackground">
+            
+            <CardActions>
+              <Button size="small">
+                {" "}
+                <a
+                  href="https://public.tableau.com/views/TestScores2021v_2019/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See Full Visualization
+                </a>
+              </Button>
+              <Button size="small">
+                {" "}
+                <a
+                  href="https://oklahomawatch.org/2021/10/04/student-learning-in-a-pandemic-test-results-show-heavy-toll/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read Related Article
+                </a>
+              </Button>
+            </CardActions>
+          </CardContent>
+        </Card>
+        <Card id="card" sx={{ maxWidth: 1000 }}>
+          <CardHeader
+            avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+            title="Oklahoma Watch"s
+            subheader="Oct. 4, 2021"
+            className="cardBackground"
+          />
+          <CardMedia className="dataEmbed"
+          component="img"
+          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Va&#47;VaccinationTweets&#47;Dashboard1&#47;1_rss.png'    scrolling="yes" 
+         
+
+
+        />
+          <CardContent className="cardBackground">
+            
+            <CardActions>
+              <Button size="small">
+                {" "}
+                <a
+                  href="https://public.tableau.com/views/TestScores2021v_2019/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See Full Visualization
+                </a>
+              </Button>
+              <Button size="small">
+                {" "}
+                <a
+                  href="https://oklahomawatch.org/2021/10/04/student-learning-in-a-pandemic-test-results-show-heavy-toll/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read Related Article
+                </a>
+              </Button>
+            </CardActions>
+          </CardContent>
+        </Card>
+
         
         
       </div>
