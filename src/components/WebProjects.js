@@ -42,16 +42,7 @@ export default function WebProjects() {
               Created this very website that you are now on using a frontend tech stack that includes React, Bootstrap, Material UI.
             </Typography>
             <CardActions>
-              <Button size="small">
-                {" "}
-                <a
-                  href="willowy-dragon-a2e1a7.netlify.app/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View App
-                </a>
-              </Button>
+              
               <Button size="small">
                 {" "}
                 <a
@@ -102,7 +93,7 @@ export default function WebProjects() {
               <Button size="small">
                 {" "}
                 <a
-                  href="https://www.youtube.com/watch?v=BlpOtWfLxtw"
+                  href="https://youtu.be/BlpOtWfLxtw?t=543"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
