@@ -286,8 +286,9 @@ td {
 }
 
 i {
-  font-size: 500%;
-  padding-right: 4px;
+  font-size: 800%;
+  padding-right: 30px;
+  padding-bottom: 20px;
 }
 
 #devicon {
@@ -299,5 +300,7 @@ i {
 
 .dataEmbed {
   padding: 10px;
+  max-height: 500px;
+  min-width: 400px;
 
 }
