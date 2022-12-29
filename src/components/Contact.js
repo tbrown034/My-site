@@ -13,6 +13,13 @@ import Toast from 'react-bootstrap/Toast';
   const sendEmail = (e) => {
     console.log('handleSubmit ran');
     e.preventDefault();
+   
+    emailjs.sendForm('service_99v16fc', 'contact_form', form.current, 'oLVh7PnRrJc_IUIfK')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
     e.target.reset();
 
 
@@ -35,7 +42,7 @@ import Toast from 'react-bootstrap/Toast';
     <Button form="contactForm" type="submit" value="send" onClick={toggleShowA} className="mb-2">
           Send 
         </Button>
-        <Toast show={showA} autohide="true" onClose={toggleShowA}>
+        <Toast delay ="14000" show={showA} autohide="true" onClose={toggleShowA}>
           <Toast.Header>
             <img
               src="holder.js/20x20?text=%20"
@@ -43,9 +50,8 @@ import Toast from 'react-bootstrap/Toast';
               alt=""
             />
             <strong className="me-auto">Success!</strong>
-            <small>11 mins ago</small>
           </Toast.Header>
-          <Toast.Body>Thanks for sending your message! I'll get back to you ASAP!</Toast.Body>
+          <Toast.Body>Thanks for sending your message! I'll get back to you ASAP! - Trevor</Toast.Body>
         </Toast>
 
     </div>
