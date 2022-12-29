@@ -27,35 +27,7 @@ export default function WebProjects() {
         ways to grab, filter and display infomration.{" "}
       </h4>
       <div id="clipContainer">
-      <Card  id="card" sx={{ maxWidth: 500 }}> 
-          <CardHeader
-            avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-           
-            title="Personal Project"
-            subheader="Winter 2022"
-            className="cardBackground"
-
-          />
-          <CardMedia component="img" image={personal} alt="personal" />
-          <CardContent className="cardBackground"  >
-            <Typography paragraph>
-              Created this very website that you are now on using a frontend tech stack that includes React, Bootstrap, Material UI.
-            </Typography>
-            <CardActions>
-              
-              <Button size="small">
-                {" "}
-                <a
-                  href="https://github.com/tbrown034/TicTacToeRedo.git"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  See the Code on Github
-                </a>
-              </Button>
-            </CardActions>
-          </CardContent>
-        </Card>
+     
         <Card id="card" sx={{ maxWidth: 500 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
@@ -103,6 +75,36 @@ export default function WebProjects() {
             </CardActions>
           </CardContent>
           
+        </Card>
+
+        <Card  id="card" sx={{ maxWidth: 500 }}> 
+          <CardHeader
+            avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+           
+            title="Personal Project"
+            subheader="Winter 2022"
+            className="cardBackground"
+
+          />
+          <CardMedia component="img" image={personal} alt="personal" />
+          <CardContent className="cardBackground"  >
+            <Typography paragraph>
+              Created this very website that you are now on using a frontend tech stack that includes React, Bootstrap, Material UI.
+            </Typography>
+            <CardActions>
+              
+              <Button size="small">
+                {" "}
+                <a
+                  href="https://github.com/tbrown034/TicTacToeRedo.git"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  See the Code on Github
+                </a>
+              </Button>
+            </CardActions>
+          </CardContent>
         </Card>
         <Card id="card" sx={{ maxWidth: 500 }}>
           <CardHeader

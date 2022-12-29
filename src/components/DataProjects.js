@@ -5,7 +5,6 @@ import CardMedia from "@mui/material/CardMedia";
 import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
 import Avatar from "@mui/material/Avatar";
-import Typography from "@mui/material/Typography";
 import trevPhoto from "./Photos/trevorPhoto2.jpeg";
 import Button from "@mui/material/Button";
 
@@ -14,7 +13,7 @@ import Button from "@mui/material/Button";
 export default function DataProjects() {
   return (
     <>
-      <h2>Projects</h2>
+      <h2>Data Visualization Projects</h2>
       <h4>char
         In addition to the projects and web applications I built during my
         coding education, I enjoy exploring new technologies and finding new
@@ -561,7 +560,7 @@ export default function DataProjects() {
               <Button size="small">
                 {" "}
                 <a
-                  href="https://oklahomawatch.org/2021/11/19/redistricting-weighing-the-impact-of-splitting-oklahomas-largest-hispanic-community/"
+                  href="https://public.tableau.com/views/BothMapsRedistricting/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
