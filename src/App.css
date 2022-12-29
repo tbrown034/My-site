@@ -322,3 +322,16 @@ i {
   display: flex;
   align-items: center;
 }
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  border:rgb(120, 130, 143) solid 10px;
+  margin: 10px;
+  padding: 30px;
+}
+
+label {
+  color: #519A8C;
+  font-size: larger;
+}

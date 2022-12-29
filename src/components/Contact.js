@@ -31,12 +31,14 @@ import Toast from 'react-bootstrap/Toast';
     <h3>Intersted in hiring me? Collaborating on a project? Just saying hey? Get in Touch!</h3>
     <div>
     <form id="contactForm" ref={form} onSubmit={sendEmail}>
-      <label>Name</label>
+      <label>Name:</label>
       <input type="text" name="user_name" />
-      <label>Email</label>
+      <br/>
+      <label>Email or Phone:</label>
       <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
+      <br/>
+      <label>Message:</label>
+      <textarea rows="15" name="message" />
     </form>
 
     <Button form="contactForm" type="submit" value="send" onClick={toggleShowA} className="mb-2">
