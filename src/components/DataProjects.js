@@ -23,7 +23,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"
+            title="Publication: Oklahoma Watch"
             subheader="June 3, 2022"
             className="cardBackground"
           />
@@ -62,7 +62,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"
+            title="Publication: Oklahoma Watch"
             subheader="April 18, 2022"
             className="cardBackground"
           />
@@ -100,7 +100,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"
+            title="Publication: Oklahoma Watch"
             subheader="April 18, 2022"
             className="cardBackground"
           />
@@ -138,7 +138,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"
+            title="Publication: Oklahoma Watch"
             subheader="Feb. 28, 2022"
             className="cardBackground"
           />
@@ -177,7 +177,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"
+            title="Publication: Oklahoma Watch"
             subheader="Feb. 28, 2022"
             className="cardBackground"
           />
@@ -216,7 +216,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"
+            title="Publication: Oklahoma Watch"
             subheader="Dec. 20, 2021"
             className="cardBackground"
           />
@@ -255,7 +255,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"
+            title="Publication: Oklahoma Watch"
             subheader="Dec. 20, 2021"
             className="cardBackground"
           />
@@ -294,7 +294,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"
+            title="Publication: Oklahoma Watch"
             subheader="Dec. 20, 2021"
             className="cardBackground"
           />
@@ -333,7 +333,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"
+            title="Publication: Oklahoma Watch"
             subheader="Nov. 19, 2021"
             className="cardBackground"
           />
@@ -373,7 +373,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"s
+            title="Publication: Oklahoma Watch"s
             subheader="Oct. 4, 2021"
             className="cardBackground"
           />
@@ -413,7 +413,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"s
+            title="Publication: Oklahoma Watch"s
             subheader="Oct. 4, 2021"
             className="cardBackground"
           />
@@ -453,7 +453,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"s
+            title="Publication: Oklahoma Watch"s
             subheader="Oct. 4, 2021"
             className="cardBackground"
           />
@@ -493,7 +493,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"s
+            title="Publication: Oklahoma Watch"s
             subheader="March. 26, 2020"
             className="cardBackground"
           />
@@ -533,7 +533,7 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Oklahoma Watch"s
+            title="Publication: Oklahoma Watch"s
             subheader="March. 26, 2020"
             className="cardBackground"
           />

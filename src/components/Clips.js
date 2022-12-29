@@ -54,7 +54,7 @@ export default function Clips() {
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
           
-          title="Oklahoma Watch"
+          title="Publication: Oklahoma Watch"
           subheader="June 6, 2022"
         />
         <CardMedia
@@ -142,7 +142,7 @@ export default function Clips() {
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
          
-          title="Oklahoma Watch"
+          title="Publication: Oklahoma Watch"
           subheader="Jan. 13, 2022"
         />
         <CardMedia component="img" height="194" image={Jan6Photo} />
@@ -228,7 +228,7 @@ export default function Clips() {
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
          
-          title="Oklahoma Watch"
+          title="Publication: Oklahoma Watch"
           subheader="Dec. 20, 2021"
         />
         <CardMedia component="img" height="194" image={churchPhoto} />
@@ -323,7 +323,7 @@ export default function Clips() {
         <CardHeader
           avatar={<Avatar alt="Trevor" src={docPhoto} />}
     
-          title="Oklahoma Watch"
+          title="Publication: Oklahoma Watch"
           subheader="Aug. 27, 2021"
         />
         <CardMedia component="img" height="194" image={docPhoto} />
@@ -405,7 +405,7 @@ export default function Clips() {
         <CardHeader
           avatar={<Avatar alt="Trevor" src={docPhoto} />}
           
-          title="Oklahoma Watch"
+          title="Publication: Oklahoma Watch"
           subheader="July 30, 2021"
         />
         <CardMedia component="img" height="194" image={stittPhoto} />
@@ -484,7 +484,7 @@ export default function Clips() {
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
           
-          title="Oklahoma Watch"
+          title="Publication: Oklahoma Watch"
           subheader="July 2, 2021"
         />
         <CardMedia
@@ -552,7 +552,7 @@ export default function Clips() {
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
          
-          title="Oklahoma Watch"
+          title="Publication: Oklahoma Watch"
           subheader="April 16, 2021"
         />
         <CardMedia component="img" height="194" image={covid} />
@@ -624,7 +624,7 @@ export default function Clips() {
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
           
-          title="Oklahoma Watch"
+          title="Publication: Oklahoma Watch"
           subheader="March 15, 2021"
         />
         <CardMedia component="img" height="194" image={noComment} />
