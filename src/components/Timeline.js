@@ -18,8 +18,6 @@ const Experience = () => {
   return (
     <>
       <div id="journalismExp">
-        <h2>Work History</h2>
-        <h4>Oh, the places I have been </h4>
         <Timeline position="alternate">
           <TimelineItem>
             <TimelineOppositeContent id="timelineDate" sx={{ m: "auto 0" }}>

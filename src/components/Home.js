@@ -40,7 +40,7 @@ const Home = () => {
           <h3>
             I'm an <b>award-winning investigative journalist</b> with nearly two
             decades of experience. <br /> <br /> I'm also a freshly minted{" "}
-            <b>full-stack web developer</b> who is interested in building new
+            <b>full-stack web developer</b> who is interested in telling stories, finding stuff out and building new
             tools at the intersection of technology and journalism. <u></u>Let's{" "}
             <b>create something cool.</b>
           </h3>

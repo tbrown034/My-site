@@ -1,16 +1,30 @@
-import DataTech from "./DataTech";
+import * as React from "react";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+// import DataTech from "./DataTech";
 import DataProjects from "./DataProjects";
 
 const DataViz = () => {
   return (
     <>
       <h1>Data Journalism and Graphics</h1>
-      <h4>
-        As a journalist, obtaining, analyzing and displaying data has been a key
-        part of my career. And I believe these skills will remain critical in
-        any journalism or developer project I pursue next.
-      </h4>
-      <DataTech />
+      <div id="navDiv">
+        <Navbar id="navbar" variant="dark">
+          <Nav id="navLinks">
+            <Nav.Link id="topHead" href="/journalism">
+              Made with DataWrapper //
+            </Nav.Link>
+            <br />
+            <Nav.Link id="topHead" href="/journalism">
+              Made with Tableua //
+            </Nav.Link>
+            <Nav.Link id="topHead" href="/journalism">
+              Made with Flourish
+            </Nav.Link>
+          </Nav>
+        </Navbar>
+      </div>
+      {/* <DataTech /> */}
       <DataProjects />
     </>
   );

@@ -48,7 +48,6 @@ export default function Clips() {
 
   return (
     <>
-      <h4>Selected Works</h4>
       <div id="clipContainer">
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader

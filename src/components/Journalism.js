@@ -17,17 +17,17 @@ const Journalism = () => {
             </Nav.Link>
             <br />
             <Nav.Link id="topHead" href="/journalism">
-              Coding //
+              Some of My Best Journalism //
             </Nav.Link>
             <Nav.Link id="topHead" href="/journalism">
-              Data Visualizations
+              Awards //
             </Nav.Link>
           </Nav>
         </Navbar>
       </div>
-
+      <h2 id="anchorExperience">Work History</h2>
       <Experience />
-      <h2 id="anchorClips">Clips</h2>
+      <h2 id="anchorClips">Selected Articles</h2>
       <Clips />
       <h2 id="anchorAwards">Awards</h2>
       <Awards />
