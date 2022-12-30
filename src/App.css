@@ -40,6 +40,13 @@ b {
   color: #519A8C;
 }
 
+.material-icons.md-49 { 
+  vertical-align: middle;
+  
+}
+
+
+
 .iconContainer {
   display: flex;
   justify-content: center;
@@ -334,4 +341,8 @@ i {
 label {
   color: #519A8C;
   font-size: larger;
+}
+#topHead {
+  font-size: x-large;
+  
 }

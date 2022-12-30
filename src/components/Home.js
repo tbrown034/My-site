@@ -14,17 +14,19 @@ const Home = () => {
           
           <div id="introContainer">
             <h1>Hello, I'm Trevor.</h1>
-            <h3>Journalist + Coder</h3>
+            <h3>Journalist + Coder + Data Viz Expert</h3>
             <div class="iconContainer">
               <span class="material-symbols-outlined material-icons md-48">
                 edit
               </span>
-              <span class="material-symbols-outlined material-icons md-48">
-                add
-              </span>
+              
               <span class="material-symbols-outlined material-icons md-48">
                 code
               </span>
+              
+              <span class="material-symbols-outlined material-icons md-48">
+dataset
+</span>
             </div>
             <div id="homePhotoContainer">
             <Image
