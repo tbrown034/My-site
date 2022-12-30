@@ -10,7 +10,6 @@ import Avatar from "@mui/material/Avatar";
 import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import trevPhoto from "./Photos/trevorPhoto2.jpeg";
 import onePhoto from "./Photos/LameyerBennett_24.webp";
 import trooperPhoto from "./Photos/trooper.jpeg";
