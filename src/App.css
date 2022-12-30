@@ -318,3 +318,32 @@ label {
 #topHead {
   font-size: x-large;
 }
+
+#plainLink  {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;;
+}
+
+#plainLink:hover  {
+  font-weight: bold;
+  
+}
+
+#styleLink  {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: pointer;
+  color: #519a8c;
+  font-weight: 600
+  ;
+}
+
+#styleLink:hover  {
+  font-weight: bold;
+  font-weight: 610;
+  color: #83bdb2;
+
+  ;
+  
+}

@@ -3,6 +3,9 @@ import trevPhoto from "./Photos/Trevor12.JPG";
 import Image from "react-bootstrap/Image";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
+import { Link } from "react-router-dom";
+
+
 
 const Home = () => {
   return (
@@ -10,19 +13,24 @@ const Home = () => {
       <div id="homeContainer">
         <div id="topHome">
           <div id="introContainer">
-            <h1>Hello, I'm Trevor.</h1>
+            <h1>Hello 👋, I'm Trevor</h1>
             <br />
-            <h3>Journalist + Coder + Data Viz Expert</h3>
+            <h3><Link id="plainLink" to="/journalism">Journalist</Link> + <Link id="plainLink" to="/webdevelopment">Coder</Link> + <Link id="plainLink" to="/dataviz">Data Viz Expert</Link></h3>
             <div class="iconContainer">
-              <span class="material-symbols-outlined material-icons md-48">
+            <Link id="plainLink" to="/journalism"><span class="material-symbols-outlined material-icons md-48">
                 edit
-              </span>
-              <span class="material-symbols-outlined material-icons md-48">
+              </span></Link>
+              <Link id="plainLink" to="/webdevelopment"><span class="material-symbols-outlined material-icons md-48">
                 code
-              </span>
-              <span class="material-symbols-outlined material-icons md-48">
+              </span></Link>
+              <Link id="plainLink" to="/dataviz"><span class="material-symbols-outlined material-icons md-48">
                 dataset
-              </span>
+              </span></Link>
+              
+              
+              
+              
+              
             </div>
             <div id="homePhotoContainer">
               <Image
@@ -38,11 +46,9 @@ const Home = () => {
         <div id="homeText">
           <br />
           <h3>
-            I'm an <b>award-winning investigative journalist</b> with nearly two
-            decades of experience. <br /> <br /> I'm also a freshly minted{" "}
-            <b>full-stack web developer</b> who is interested in telling stories, finding stuff out and building new
-            tools at the intersection of technology and journalism. <u></u>Let's{" "}
-            <b>create something cool.</b>
+            I'm an <Link id="styleLink" to="/journalism">award-winning investigative journalist</Link> with nearly two decades of experience. I also specialize in <Link id="styleLink" to="/dataviz">gathering, analyzing and visualizing data</Link>. 
+
+            Most recently, I have become a <Link id="styleLink" to="/dataviz">full-stack web developer</Link> with an interest in journalism, tech and everthing in between. Let's <Link id="styleLink" to="/contact">create something cool</Link>.
           </h3>
           <br />
           <div id="homeButtons">
