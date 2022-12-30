@@ -18,18 +18,8 @@ const Experience = () => {
   return (
     <>
       <div id="journalismExp">
-        <h2>Experience</h2>
-        <h4>
-        Before the summer of 2022, I was an investigatve journalist with
-        Oklahoma Watch, a non-profit investigatve journalism group based in
-        Okahoma City. For the past six years, I was Oklahoma Watch's political
-        and democracy beat reporter. Before that, I spent five years as the
-        Wyoming Tribune Eagle's statehouse reporter and before that worked for
-        Community Newspaper Holdings Inc.'s chain of newspapers in Oklahoma, the
-        Staunton News Leader and the Indianapolis Star as a Pulliam Fellow.
-      </h4>
-
-
+        <h2>Work History</h2>
+        <h4>Oh, the places I have been </h4>
         <Timeline position="alternate">
           <TimelineItem>
             <TimelineOppositeContent id="timelineDate" sx={{ m: "auto 0" }}>

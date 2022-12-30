@@ -4,25 +4,6 @@ import Table from "react-bootstrap/Table";
 const Awards = () => {
   return (
     <>
-      <h4>
-        I was honored in 2021 to named newspaper{" "}
-        <a
-          href="https://oklahomawatch.org/2021/05/10/oklahoma-watchs-trevor-brown-earns-writer-of-year-honors-in-great-plains-journalism-contest/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Writer of the Year in the Great Plains Journalism Awards
-        </a>
-        contest for my work that included an examination of Oklahoma hospitals
-        suing patients over unpaid bills amid the pandemic and state politicians
-        who promoted misinformation before the November elections. The Great
-        Plains Journalism Awards is a regional contest honoring print, web, TV
-        and magazine journalists for outstanding stories, photography and
-        design. The newspaper category is open to entries from organizations in
-        Oklahoma, Arkansas, Kansas, Missouri, Nebraska, Iowa, North Dakota and
-        South Dakota. Winners were announced Thursday by the Tulsa Press Club.
-        Here are some of the other awards I have received over the years.
-      </h4>
       <div>
         <Table bordered hover>
           <thead>

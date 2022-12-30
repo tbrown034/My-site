@@ -18,7 +18,3 @@ export {default as Tech} from './Tech'
 
 
 
-
-
-// export { default as HomeCarousel} from './HomeCarousel'
-

@@ -48,7 +48,7 @@ export default function Clips() {
 
   return (
     <>
-      <h4>Over the course of my career, I have written hundreds, if not thousands, of articles. From working the night or weekend cops beat during a cub reporter to hard-hitting investigative pieces that spurred resignations, changes in public safety policies and hopefully new conversations about difficult issues. Below are some of the clips I'm most proud of. Click the expand arrow to read more.</h4>
+      <h4>Selected Works</h4>
       <div id="clipContainer">
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader

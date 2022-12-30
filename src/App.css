@@ -6,12 +6,21 @@ body {
 
 h1 {
   font-size: 600%;
-  color: #519A8C;
-  text-decoration: #83BDB2 wavy underline;
+  color: #519a8c;
+  text-decoration: #83bdb2 wavy underline;
   text-decoration-skip-ink: none;
   text-underline-offset: 20px;
   text-align: center;
   margin-bottom: 35px;
+}
+
+
+h2 {
+  font-size: 500%;
+  text-align: center;
+  color: rgb(35, 165, 165);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
 
 }
 
@@ -23,10 +32,17 @@ h3 {
   margin-left: 5%;
 }
 
-b {
-  color: #519A8C;
-  text-decoration: #83BDB2 dotted underline;
+h4 {
+  font-size: 400%;
+  text-align: center;
+  color: rgb(35, 165, 165);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
 
+b {
+  color: #519a8c;
+  text-decoration: #83bdb2 dotted underline;
 }
 
 #topHome {
@@ -35,25 +51,19 @@ b {
   justify-content: center;
 }
 
-.material-icons.md-48 { 
+.material-icons.md-48 {
   font-size: 800%;
-  color: #519A8C;
+  color: #519a8c;
 }
 
-.material-icons.md-49 { 
+.material-icons.md-49 {
   vertical-align: middle;
-  
 }
-
-
 
 .iconContainer {
   display: flex;
   justify-content: center;
 }
-
-
-
 
 #introContainer {
   display: flex;
@@ -62,10 +72,9 @@ b {
 }
 
 #homeTrevorPhoto {
-  border: 8px #83BDB2 dotted;
+  border: 8px #83bdb2 dotted;
   max-width: 55%;
   height: auto;
-
 }
 
 #homePhotoContainer {
@@ -84,43 +93,37 @@ b {
 }
 
 #dropdown-basic-button {
-  border: #83BDB2 3px solid;
+  border: #83bdb2 3px solid;
   margin-right: 10px;
-  background-color:rgb(29, 66, 115);
+  background-color: rgb(29, 66, 115);
   color: white(29, 66, 115);
   font-size: 200%;
   margin-top: 8px;
   margin-bottom: 8px;
 }
 
-
 #downloadButton {
-  border: #83BDB2 3px solid;
+  border: #83bdb2 3px solid;
   margin-right: 10px;
-  background-color:transparent;
+  background-color: transparent;
   color: rgb(194, 199, 216);
   font-size: 50px;
-
 }
 
 #downloadResume {
-  border: #83BDB2 3px solid;
+  border: #83bdb2 3px solid;
   margin-right: 10px;
-  background-color:rgb(29, 66, 115);
+  background-color: rgb(29, 66, 115);
   color: rgb(194, 199, 216);
   font-size: 225%;
-
 }
 
 #button1 {
   border: whitesmoke 3px solid;
-  background-color:rgb(29, 66, 115);
-  color: rgb(167, 178, 186); 
-  font-size: 60px; 
+  background-color: rgb(29, 66, 115);
+  color: rgb(167, 178, 186);
+  font-size: 60px;
 }
-
-
-
 
 #socialIcons {
   margin: 8px;
@@ -129,9 +132,7 @@ b {
 #footIconContainer {
   display: flex;
   justify-content: center;
-
 }
-
 
 .bodyContainer {
   display: flex;
@@ -139,23 +140,15 @@ b {
   justify-content: space-evenly;
   background-color: #a8abb4;
   font-size: 18px;
-  font-family: 'Press Start 2P', 'Rubik', sans-serif;
+  font-family: "Press Start 2P", "Rubik", sans-serif;
   text-align: center;
-
 }
-
-
-
 
 #homeContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;  
+  justify-content: center;
 }
-
-
-
-
 
 #homeIntro {
   font-size: 40px;
@@ -166,49 +159,39 @@ b {
   margin-left: 6px;
   margin-right: 6px;
   margin-top: 4px;
-  font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
   color: rgb(209, 212, 232);
 }
 
 
 
 
-h2 {
-  font-size: 500%;
-  text-align: center;
-  color: rgb(35, 165, 165);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  
 
-}
-
-.cardBackground  {
+.cardBackground {
   background-color: whitesmoke;
 }
-
 
 /* Header */
 
 #navBrand {
   color: white;
-  font-family: 'Monoton', cursive;
+  font-family: "Monoton", cursive;
   font-size: 90px;
   padding-left: 40px;
 }
 
 #navLinks {
   font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   display: flex;
   flex-wrap: wrap;
 }
 
 #navContact {
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   display: flex;
   flex-wrap: wrap;
-
 }
 
 #navbar {
@@ -217,19 +200,18 @@ h2 {
   justify-content: center;
 }
 
-
-
-#contact, #resume {
-  border: #83BDB2 3px solid;
+#contact,
+#resume {
+  border: #83bdb2 3px solid;
   margin-right: 10px;
-  background-color:rgb(29, 66, 115);
+  background-color: rgb(29, 66, 115);
   color: white(29, 66, 115);
 }
 
 /* footer  */
 
 #footContact {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: x-large;
   align-self: center;
   border-bottom: 4px solid black;
@@ -253,19 +235,15 @@ h4 {
 
 #timelineDate {
   color: whitesmoke;
-
 }
 
 #timelineHeader {
-  color:  #519A8C;
-  font-size: larger; 
-
+  color: #519a8c;
+  font-size: larger;
 }
 
 #timelineSubhead {
-  color:rgb(167, 178, 186) 
-
-
+  color: rgb(167, 178, 186);
 }
 
 #clipHeadline {
@@ -282,7 +260,6 @@ h4 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 #card {
@@ -290,15 +267,13 @@ h4 {
   margin-bottom: 2%;
 }
 
-
-
 th {
   font-size: larger;
-  color: #519A8C;
+  color: #519a8c;
 }
 
 td {
-  color:#83BDB2;
+  color: #83bdb2;
 }
 
 i {
@@ -311,14 +286,12 @@ i {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 
 .dataEmbed {
   padding: 10px;
   max-height: 500px;
   max-width: 800px;
-
 }
 
 #resumeContain {
@@ -333,16 +306,15 @@ i {
 #contactForm {
   display: flex;
   flex-direction: column;
-  border:rgb(120, 130, 143) solid 10px;
+  border: rgb(120, 130, 143) solid 10px;
   margin: 10px;
   padding: 30px;
 }
 
 label {
-  color: #519A8C;
+  color: #519a8c;
   font-size: larger;
 }
 #topHead {
   font-size: x-large;
-  
 }

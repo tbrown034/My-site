@@ -8,14 +8,12 @@ import Avatar from "@mui/material/Avatar";
 import trevPhoto from "./Photos/trevorPhoto2.jpeg";
 import Button from "@mui/material/Button";
 
-
-
 export default function DataProjects() {
   return (
     <>
       <h2>Data Visualization Projects</h2>
-      <h4>char
-        In addition to the projects and web applications I built during my
+      <h4>
+        char In addition to the projects and web applications I built during my
         coding education, I enjoy exploring new technologies and finding new
         ways to grab, filter and display infomration.{" "}
       </h4>
@@ -27,14 +25,14 @@ export default function DataProjects() {
             subheader="June 3, 2022"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="iframe"
-          src="https://datawrapper.dwcdn.net/fMDc4/6/" 
-          scrolling="yes" frameborder="1"
- 
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="iframe"
+            src="https://datawrapper.dwcdn.net/fMDc4/6/"
+            scrolling="yes"
+            frameborder="1"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -66,13 +64,13 @@ export default function DataProjects() {
             subheader="April 18, 2022"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="iframe"
-          src="https://datawrapper.dwcdn.net/L0qvZ/4/" scrolling="yes" 
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="iframe"
+            src="https://datawrapper.dwcdn.net/L0qvZ/4/"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -104,13 +102,13 @@ export default function DataProjects() {
             subheader="April 18, 2022"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="iframe"
-          src="https://datawrapper.dwcdn.net/NDN7G/9/" scrolling="yes" 
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="iframe"
+            src="https://datawrapper.dwcdn.net/NDN7G/9/"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -142,14 +140,13 @@ export default function DataProjects() {
             subheader="Feb. 28, 2022"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="iframe"
-          src="https://datawrapper.dwcdn.net/m9I4h/2/"
-          scrolling="yes" 
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="iframe"
+            src="https://datawrapper.dwcdn.net/m9I4h/2/"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -181,14 +178,13 @@ export default function DataProjects() {
             subheader="Feb. 28, 2022"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="iframe"
-          src="https://datawrapper.dwcdn.net/9FU1F/1/" 
-          scrolling="yes" 
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="iframe"
+            src="https://datawrapper.dwcdn.net/9FU1F/1/"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -220,14 +216,13 @@ export default function DataProjects() {
             subheader="Dec. 20, 2021"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="iframe"
-          src="https://datawrapper.dwcdn.net/eTHLz/1/" 
-          scrolling="yes" 
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="iframe"
+            src="https://datawrapper.dwcdn.net/eTHLz/1/"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -259,14 +254,13 @@ export default function DataProjects() {
             subheader="Dec. 20, 2021"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="iframe"
-          src="https://datawrapper.dwcdn.net/5Pout/1/"
-                    scrolling="yes" 
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="iframe"
+            src="https://datawrapper.dwcdn.net/5Pout/1/"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -298,13 +292,13 @@ export default function DataProjects() {
             subheader="Dec. 20, 2021"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="iframe"
-          src="https://datawrapper.dwcdn.net/EncDs/4/"                    scrolling="yes" 
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="iframe"
+            src="https://datawrapper.dwcdn.net/EncDs/4/"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -337,15 +331,13 @@ export default function DataProjects() {
             subheader="Nov. 19, 2021"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="img"
-          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Du&#47;DualMaps_16366620253140&#47;Dashboard1&#47;1_rss.png'                scrolling="yes" 
-       
-
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="img"
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Du&#47;DualMaps_16366620253140&#47;Dashboard1&#47;1_rss.png"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -373,19 +365,18 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Publication: Oklahoma Watch"s
+            title="Publication: Oklahoma Watch"
+            s
             subheader="Oct. 4, 2021"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="img"
-          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TestScores2021v_2019&#47;Dashboard1&#47;1_rss.png'       scrolling="yes" 
-
-
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="img"
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Te&#47;TestScores2021v_2019&#47;Dashboard1&#47;1_rss.png"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -413,19 +404,18 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Publication: Oklahoma Watch"s
+            title="Publication: Oklahoma Watch"
+            s
             subheader="Oct. 4, 2021"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="img"
-          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Va&#47;VaccinationTweets&#47;Dashboard1&#47;1_rss.png'    scrolling="yes" 
-         
-
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="img"
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Va&#47;VaccinationTweets&#47;Dashboard1&#47;1_rss.png"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -453,19 +443,18 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Publication: Oklahoma Watch"s
+            title="Publication: Oklahoma Watch"
+            s
             subheader="Oct. 4, 2021"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="img"
-          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020Legislature1&#47;Dashboard1&#47;1_rss.png'     scrolling="yes" 
-         
-
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="img"
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;20&#47;2020Legislature1&#47;Dashboard1&#47;1_rss.png"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -493,19 +482,18 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Publication: Oklahoma Watch"s
+            title="Publication: Oklahoma Watch"
+            s
             subheader="March. 26, 2020"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="img"
-          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Nu&#47;Nursing_Home_Infection_Violations&#47;Dashboard1&#47;1_rss.png'     scrolling="yes" 
-         
-
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="img"
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Nu&#47;Nursing_Home_Infection_Violations&#47;Dashboard1&#47;1_rss.png"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -533,19 +521,18 @@ export default function DataProjects() {
         <Card id="card" sx={{ maxWidth: 1000 }}>
           <CardHeader
             avatar={<Avatar alt="Trevor" src={trevPhoto} />}
-            title="Publication: Oklahoma Watch"s
+            title="Publication: Oklahoma Watch"
+            s
             subheader="March. 26, 2020"
             className="cardBackground"
           />
-          <CardMedia className="dataEmbed"
-          component="img"
-          src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;BothMapsRedistricting&#47;Dashboard1&#47;1_rss.png'     scrolling="yes" 
-         
-
-
-        />
+          <CardMedia
+            className="dataEmbed"
+            component="img"
+            src="https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;BothMapsRedistricting&#47;Dashboard1&#47;1_rss.png"
+            scrolling="yes"
+          />
           <CardContent className="cardBackground">
-            
             <CardActions>
               <Button size="small">
                 {" "}
@@ -570,9 +557,6 @@ export default function DataProjects() {
             </CardActions>
           </CardContent>
         </Card>
-
-        
-        
       </div>
     </>
   );
