@@ -12,25 +12,19 @@ const WebDevelopment = () => {
         <div id="navDiv">
         <Navbar id="navbar" variant="dark">
           <Nav id="navLinks">
-            <Nav.Link id="topHead" href="/journalism">
+            <Nav.Link id="topHead" href="#anchorStack">
               Skills //
             </Nav.Link>
             <br />
-            <Nav.Link id="topHead" href="/journalism">
-              Projects //
-            </Nav.Link>
-            <Nav.Link id="topHead" href="/journalism">
-             Intersts
+            <Nav.Link id="topHead" href="#anchorProjects">
+              Projects
             </Nav.Link>
           </Nav>
         </Navbar>
       </div>
-       
+      <h2 id="anchorStack">Tech Stack</h2>
         <Tech />
-    
-
-
-       
+        <h2 id="anchorProjects">Projects</h2>
         <WebProjects/>
     
     

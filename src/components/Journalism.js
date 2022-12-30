@@ -12,15 +12,15 @@ const Journalism = () => {
       <div id="navDiv">
         <Navbar id="navbar" variant="dark">
           <Nav id="navLinks">
-            <Nav.Link id="topHead" href="/journalism">
+            <Nav.Link id="topHead" href="#anchorExperience">
               Experience //
             </Nav.Link>
             <br />
-            <Nav.Link id="topHead" href="/journalism">
+            <Nav.Link id="topHead" href="#anchorClips">
               Some of My Best Journalism //
             </Nav.Link>
-            <Nav.Link id="topHead" href="/journalism">
-              Awards //
+            <Nav.Link id="topHead" href="#anchorAwards">
+              Awards
             </Nav.Link>
           </Nav>
         </Navbar>

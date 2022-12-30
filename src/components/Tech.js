@@ -5,11 +5,8 @@ import Typography from "@mui/material/Typography";
 export default function Tech() {
   return (
     <>
-      <h2>Tech Stack</h2>
       <h4>
-        My education focused on JavaScript web development training using the
-        NERD stack (Node.js, Express, React, Databases using SQL.) Below are
-        those and other technologies I have used.
+       I specialize in a NERD stack (Node.js, Express, React, Databases using SQL), but I'm most home currently with React. I'm always learning more, but here are the main technologies I have used.
       </h4>
       <br></br>
       <div id="deviconContainer">

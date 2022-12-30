@@ -20,7 +20,6 @@ import strangers from "./Photos/strangers.png"
 export default function WebProjects() {
   return (
     <>
-      <h2>Projects</h2>
       <h4>
         In addition to the projects and web applications I built during my
         coding education, I enjoy exploring new technologies and finding new

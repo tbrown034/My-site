@@ -1,31 +1,30 @@
 import * as React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-// import DataTech from "./DataTech";
-import DataProjects from "./DataProjects";
+import DataProjectsDw from "./DataProjectsDw";
+import DataProjectsTl from "./DataProjectsTl";
 
 const DataViz = () => {
   return (
     <>
-      <h1>Data Journalism and Graphics</h1>
+      <h1>Data Visualizer</h1>
       <div id="navDiv">
         <Navbar id="navbar" variant="dark">
           <Nav id="navLinks">
-            <Nav.Link id="topHead" href="/journalism">
+            <Nav.Link id="topHead" href="#anchorDw">
               Made with DataWrapper //
             </Nav.Link>
             <br />
-            <Nav.Link id="topHead" href="/journalism">
-              Made with Tableua //
-            </Nav.Link>
-            <Nav.Link id="topHead" href="/journalism">
-              Made with Flourish
+            <Nav.Link id="topHead" href="#anchorTl">
+              Made with Tableau
             </Nav.Link>
           </Nav>
         </Navbar>
       </div>
-      {/* <DataTech /> */}
-      <DataProjects />
+      <h2 id="anchorDw">Made with DataWrapper</h2>
+      <DataProjectsDw id="anchorExperience"/>
+      <h2 id="anchorTl">Made with Tableau</h2>
+      <DataProjectsTl id="anchorExperience"/>
     </>
   );
 };
