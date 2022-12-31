@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "react-bootstrap/Image";
-import myResume from "./Photos/resumePic.jpg";
+import myResume from "./Photos/resumeTbWithPic.jpg";
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
@@ -26,8 +26,8 @@ export default function Resume() {
       <Dropdown.Item href="webdevelopment">Coding</Dropdown.Item>
       <Dropdown.Item href="dataviz">Data Vizsualizations</Dropdown.Item>
     </DropdownButton>
-    <a href="TrevorResume.pdf"
-        download="TrevorResume.pdf"
+    <a href="resumeTb.pdf"
+        download="resumeTb.pdf"
         >
         <button id="downloadResume">Download Resume</button>
         </a>
