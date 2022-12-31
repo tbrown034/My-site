@@ -27,7 +27,6 @@ export default function Tech() {
         </div>
       </div>
       <div id="line">
-
       </div>
      
     </>
