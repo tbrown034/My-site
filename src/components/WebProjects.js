@@ -115,7 +115,7 @@ export default function WebProjects() {
           <CardMedia component="img" image={fitness} alt="fitness" />
           <CardContent className="cardBackground">
             <Typography paragraph>
-              Worked on a team of two to create a full-stack application that allows users to sign in, register, create excersies and share routines with others. Web stack included React, Node.JS, Express and REST API. 
+              Worked on a team of two to create a full-stack application that allows users to sign in, register, create exercises and share routines with others. Web stack included React, Node.JS, Express and REST API. 
             </Typography>
             <CardActions>
               <Button size="small">

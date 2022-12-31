@@ -35,7 +35,7 @@ const Contact = () => {
     <>
       <h1>Contact Me!</h1>
       <h3>
-        Intersted in hiring me? Collaborating on a project? Just saying hey? Get
+      Interested in hiring me? Collaborating on a project? Just saying hey? Get
         in Touch!
       </h3>
       <div>
@@ -49,16 +49,19 @@ const Contact = () => {
           <label>Message:</label>
           <textarea rows="15" name="message" />
         </form>
-
+<div id="contactButtonContain">
         <Button
           form="contactForm"
           type="submit"
           value="send"
           onClick={toggleShowA}
           className="mb-2"
+          id="contactMe"
+          
         >
           Send
         </Button>
+        </div>
         <Toast delay="14000" show={showA} autohide="true" onClose={toggleShowA}>
           <Toast.Header>
             <img
