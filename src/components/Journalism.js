@@ -27,8 +27,12 @@ const Journalism = () => {
       </div>
       <h2 id="anchorExperience">Work History</h2>
       <Experience />
+      <div id="line">
+      </div>
       <h2 id="anchorClips">Selected Articles</h2>
       <Clips />
+      <div id="line">
+      </div>
       <h2 id="anchorAwards">Awards</h2>
       <Awards />
     </>

@@ -46,7 +46,7 @@ const Home = () => {
         <div id="homeText">
           <br />
           <h3>
-            I'm an <Link id="styleLink" to="/journalism">award-winning investigative journalist</Link> with nearly two decades of experience. I also specialize in <Link id="styleLink" to="/dataviz">gathering, analyzing and visualizing data</Link>. 
+            My name is Trevor Brown, and I'm an <Link id="styleLink" to="/journalism">award-winning investigative journalist</Link> with nearly two decades of experience. I also specialize in <Link id="styleLink" to="/dataviz">gathering, analyzing and visualizing data</Link>. <br/><br/>
 
             Most recently, I have become a <Link id="styleLink" to="/dataviz">full-stack web developer</Link> with an interest in journalism, tech and everthing in between. Let's <Link id="styleLink" to="/contact">create something cool</Link>.
           </h3>

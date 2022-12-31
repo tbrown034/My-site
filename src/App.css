@@ -1,3 +1,5 @@
+
+
 body {
   background-color: #02577a	;
 
@@ -22,10 +24,7 @@ h2 {
   text-align: center;
   font-family: 'Frank Ruhl Libre', serif;
   color: #def2f1;
-  text-decoration: #def2f1 wavy underline;
   text-decoration-skip-ink: none;
-  text-underline-offset: 20px;
-  padding-bottom: 20px;
 
 
 }
@@ -253,6 +252,7 @@ h3 {
 #card {
   margin-right: 2%;
   margin-bottom: 2%;
+  background-color: #def2f1;
 }
 
 th {
@@ -274,6 +274,14 @@ i {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+#line {
+  border-bottom: #499d8d dotted 4px;
+  margin-right: 16.6%;
+  margin-left: 16.6%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 .dataEmbed {
@@ -339,7 +347,4 @@ label {
   color: #83bdb2;
   text-decoration: #def2f1 wavy underline;
 
-
-  ;
-  
 }

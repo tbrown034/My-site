@@ -51,6 +51,7 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+          className="cardBackground"
           
           title="Publication: Oklahoma Watch"
           subheader="June 6, 2022"
@@ -61,7 +62,7 @@ export default function Clips() {
           image={onePhoto}
           alt="Paella dish"
         />
-        <CardContent>
+        <CardContent className="cardBackground">
           <Typography paragraph id="clipHeadline">
           <a
                   href="https://oklahomawatch.org/2022/06/06/the-misinformation-election-lies-conspiracy-theories-prominent-in-many-gop-races/"
@@ -93,7 +94,7 @@ export default function Clips() {
           </ExpandMore>
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent className="cardBackground">
             
             <Typography paragraph>
               Lahmeyer, a 30-year-old Tulsa pastor trying to unseat U.S. Sen.
@@ -139,12 +140,15 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+          className="cardBackground"
+
          
           title="Publication: Oklahoma Watch"
           subheader="Jan. 13, 2022"
         />
         <CardMedia component="img" height="194" image={Jan6Photo} />
-        <CardContent>
+        <CardContent           className="cardBackground"
+>
           <Typography paragraph id="clipHeadline">
           <a
                   href="https://oklahomawatch.org/2022/06/06/the-misinformation-election-lies-conspiracy-theories-prominent-in-many-gop-races/"
@@ -175,7 +179,8 @@ export default function Clips() {
           </ExpandMore>
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent           className="cardBackground"
+>
             <Typography paragraph>
               Holding signs or flags that read, “stop the steal,” “fight for
               freedom” and “Patriots! Duty Calls,” the crowd listened as a
@@ -225,12 +230,15 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+          className="cardBackground"
+
          
           title="Publication: Oklahoma Watch"
           subheader="Dec. 20, 2021"
         />
         <CardMedia component="img" height="194" image={churchPhoto} />
-        <CardContent>
+        <CardContent           className="cardBackground"
+>
           <Typography paragraph id="clipHeadline">
           <a
                   href="https://oklahomawatch.org/2021/12/20/as-some-oklahoma-churches-push-vaccines-others-sow-misinformation-doubt/"
@@ -263,7 +271,8 @@ export default function Clips() {
           </ExpandMore>
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent           className="cardBackground"
+>
             <Typography paragraph>
               The 58-year-old cancer survivor is convinced he doesn’t need the
               shot. And he tells members of Fairview Baptist Church that it’s up
@@ -320,12 +329,15 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={docPhoto} />}
+          className="cardBackground"
+
     
           title="Publication: Oklahoma Watch"
           subheader="Aug. 27, 2021"
         />
         <CardMedia component="img" height="194" image={docPhoto} />
-        <CardContent>
+        <CardContent           className="cardBackground"
+>
           <Typography paragraph id="clipHeadline">
           <a
                   href="https://oklahomawatch.org/2021/08/27/oklahoma-doctors-tired-but-not-deterred-push-to-get-patients-vaccinated/"
@@ -358,7 +370,8 @@ export default function Clips() {
           </ExpandMore>
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent           className="cardBackground"
+>
             
             <Typography paragraph>But that wouldn’t last long.</Typography>
             <Typography paragraph>
@@ -402,12 +415,15 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={docPhoto} />}
+          className="cardBackground"
+
           
           title="Publication: Oklahoma Watch"
           subheader="July 30, 2021"
         />
         <CardMedia component="img" height="194" image={stittPhoto} />
-        <CardContent>
+        <CardContent           className="cardBackground"
+>
           <Typography paragraph id="clipHeadline">
           <a
                   href="https://oklahomawatch.org/2021/07/30/as-other-governors-pull-out-vaccine-media-blitz-oklahomas-stitt-largely-silent/"
@@ -435,7 +451,8 @@ export default function Clips() {
           </ExpandMore>
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent           className="cardBackground"
+>
             <Typography paragraph>
               The move earned the governor kudos from the state’s medical
               community and Democrats — two groups that have long been critical
@@ -481,6 +498,8 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+          className="cardBackground"
+
           
           title="Publication: Oklahoma Watch"
           subheader="July 2, 2021"
@@ -490,7 +509,8 @@ export default function Clips() {
           height="194"
           image={medicaidPhoto}
         />
-        <CardContent>
+        <CardContent           className="cardBackground"
+>
           <Typography paragraph id="clipHeadline">
           Hundreds of Thousands of Oklahomans Can Now Get Free Health Care. Do They Know That?
           </Typography>
@@ -516,7 +536,8 @@ export default function Clips() {
           </ExpandMore>
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent           className="cardBackground"
+>
           
             <Typography paragraph>
             Time after time, he’s found many have been shocked — albeit pleasantly so.
@@ -549,12 +570,15 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+          className="cardBackground"
+
          
           title="Publication: Oklahoma Watch"
           subheader="April 16, 2021"
         />
         <CardMedia component="img" height="194" image={covid} />
-        <CardContent>
+        <CardContent           className="cardBackground"
+>
           <Typography paragraph id="clipHeadline">
           Experts: Oklahoma, Among the Unhealthiest States, Faces Heightened Risks for COVID-19 (PBS FrontLine Collaboration)
 
@@ -594,7 +618,8 @@ export default function Clips() {
           </ExpandMore>
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent           className="cardBackground"
+>
             <Typography paragraph>
             What concerned Doescher, who practices family medicine, was the types of patients he was seeing. They tended to be older and had “some major things going on,” he said. Those included cancer, heart or lung disease, obesity and other underlying conditions that, according to the Centers for Disease Control and Prevention, can heighten the risks of developing a severe illness or dying from COVID-19.
             </Typography>
@@ -621,12 +646,15 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+          className="cardBackground"
+
           
           title="Publication: Oklahoma Watch"
           subheader="March 15, 2021"
         />
         <CardMedia component="img" height="194" image={noComment} />
-        <CardContent>
+        <CardContent           className="cardBackground"
+>
           <Typography paragraph id="clipHeadline">
           No Comment: In Oklahoma’s Legislature, Public Rarely Given Chance to Weigh In
 
@@ -662,7 +690,8 @@ export default function Clips() {
           </ExpandMore>
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent           className="cardBackground"
+>
             <Typography paragraph>
             Another hot-button issue — deciding whether the Legislature should have powers to review and potentially challenge federal laws and regulations — was forwarded to the House floor after two and half minutes.
 
@@ -690,6 +719,8 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+          className="cardBackground"
+
         
           title="Wyoming Tribune Eagle"
           subheader="Dec. 13, 2015"
@@ -700,7 +731,8 @@ export default function Clips() {
           image={siloPhoto}
           alt="Paella dish"
         />
-        <CardContent>
+        <CardContent           className="cardBackground"
+>
           <Typography paragraph id="clipHeadline">
             Safety Questions Remain Around Former Nuke Site
           </Typography>
@@ -760,6 +792,8 @@ export default function Clips() {
       <Card id="card" sx={{ maxWidth: 345 }}>
         <CardHeader
           avatar={<Avatar alt="Trevor" src={trevPhoto} />}
+          className="cardBackground"
+
           
           title="Wyoming Tribune Eagle"
           subheader="Nov. 23, 2014"
@@ -770,7 +804,8 @@ export default function Clips() {
           image={trooperPhoto}
           alt="Missile Silos"
         />
-        <CardContent>
+        <CardContent           className="cardBackground"
+>
           <Typography paragraph id="clipHeadline">
             Memo: Troopers must hit numbers
           </Typography>
@@ -796,7 +831,8 @@ export default function Clips() {
           </ExpandMore>
         </CardActions>
         <Collapse in={expanded} timeout="auto" unmountOnExit>
-          <CardContent>
+          <CardContent           className="cardBackground"
+>
             <Typography paragraph>
               An internal document obtained by the Wyoming Tribune Eagle shows
               the Wyoming Highway Patrol has started to require troopers to make

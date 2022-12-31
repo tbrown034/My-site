@@ -20,11 +20,11 @@ import strangers from "./Photos/strangers.png"
 export default function WebProjects() {
   return (
     <>
-      <h4>
+      <h3>
         In addition to the projects and web applications I built during my
         coding education, I enjoy exploring new technologies and finding new
         ways to grab, filter and display infomration.{" "}
-      </h4>
+      </h3>
       <div id="clipContainer">
      
         <Card id="card" sx={{ maxWidth: 500 }}>
