@@ -298,6 +298,11 @@ i {
   margin: 20px;
 }
 
+#resumeUp {
+  display: flex;
+  justify-content: center;
+}
+
 #buttonContain {
   display: flex;
   align-items: center;
@@ -309,6 +314,9 @@ i {
   border:  #def2f1 solid 10px;
   margin: 10px;
   padding: 30px;
+  margin-right: 17%;
+  margin-left: 17%;
+
 }
 
 label {

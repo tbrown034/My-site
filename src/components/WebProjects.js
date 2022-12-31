@@ -153,7 +153,7 @@ export default function WebProjects() {
           <CardMedia component="img" image={ticTac} alt="TicTac" />
           <CardContent className="cardBackground">
             <Typography paragraph>
-              Created a simple tic-tac-toe game only vanilla JavaScript
+              Created a simple tic-tac-toe game using only vanilla JavaScript.
             </Typography>
             <CardActions>
               <Button size="small">

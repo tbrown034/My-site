@@ -10,7 +10,7 @@ export default function Resume() {
   return (
     <>
       <h1>My Resume</h1>
-      <div id="homeButtons">
+      <div id="resumeUp">
         <a href="TrevorResume.pdf"
         download="TrevorResume.pdf"
         >
