@@ -20,11 +20,11 @@ const DataViz = () => {
           </Nav>
         </Navbar>
       </div>
-      <h2 id="anchorDw">Made with DataWrapper</h2>
+      <h2 id="anchorDw">Projects Made with DataWrapper</h2>
       <DataProjectsDw id="anchorExperience"/>
       <div id="line">
       </div>
-      <h2 id="anchorTl">Made with Tableau</h2>
+      <h2 id="anchorTl">Projects Made with Tableau</h2>
       <DataProjectsTl id="anchorExperience"/>
     </>
   );
