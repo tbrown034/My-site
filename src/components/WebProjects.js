@@ -44,7 +44,7 @@ export default function WebProjects() {
               <Button size="small">
                 {" "}
                 <a
-                  href="retrograde-pc-games.netlify.app"
+                  href="https://retrograde-pc-games.netlify.app"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -95,7 +95,7 @@ export default function WebProjects() {
               <Button size="small">
                 {" "}
                 <a
-                  href="https://github.com/tbrown034/TicTacToeRedo.git"
+                  href="https://github.com/tbrown034/My-site"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -131,7 +131,7 @@ export default function WebProjects() {
               <Button size="small">
                 {" "}
                 <a
-                  href="https://github.com/tbrown034/TicTacToeRedo.git"
+                  href="https://github.com/tbrown034/UNIV_FitnessTrackr_Starter"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -159,7 +159,7 @@ export default function WebProjects() {
               <Button size="small">
                 {" "}
                 <a
-                  href="willowy-dragon-a2e1a7.netlify.app/"
+                  href="https://willowy-dragon-a2e1a7.netlify.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

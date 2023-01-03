@@ -16,18 +16,22 @@ const About = () => {
             for nearly two decades, most recently working as an investigative
             journalist for Oklahoma Watch.{" "}
           </h5>
+          <br/>
           <h5>
             After graduating from the University of Oklahoma's Outreach Coding
             Bootcamp, powered by FullStack Academy, I am now certified
             full-stack developer specializing in a tech stack that includes,
             JavaScript, React, Express and Node.js.
           </h5>
+          <br/>
           <h5>
             {" "}
             I grew up in the suburbs of Chicago but now live in Oklahoma City
             where I like to hike, explore new restaurants and breweries with
             with my girlfriend, Lauren, and my dog, Indy.
+            <br/>
           </h5>
+          <br/>
         </div>
         <div id="aboutPic">
           <Image src={trevPhoto} id="secondPic" alt="Trevor again"></Image>
